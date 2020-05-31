@@ -1,0 +1,121 @@
+body{
+	font-family: 'STV';
+	font-weight: 700;
+	color: #42423F;
+	background-color: #f5f5f5;
+}
+
+@font-face{
+	font-family: 'STV';
+	src: url(../fonts/STV.ttf);
+	font-style: normal;
+	font-weight: 100;
+}
+
+@font-face{
+	font-family: 'STV';
+	src: url(../fonts/STV-Bold.ttf);
+	font-style: normal;
+	font-weight: bold;
+}
+
+
+
+/* -------Start Upper Bar ------- */
+.upper-bar{
+	padding: 10px;
+	background-color: #08526d;
+	color:#bfc6c9;
+}
+
+.upper-bar span {
+    line-height: 29px;
+}
+
+.upper-bar a{
+	text-decoration: none;
+	color:#bfc6c9;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.upper-bar a:hover{
+	color: #fff;
+}
+
+.upper-bar .get-qoute{
+	display: inline-block;
+	border: 1px solid #ec1c23;
+	padding: 2px 10px;
+	margin-left: 20px;
+}
+
+
+/*---------------------*/
+
+.navbar {
+    position: relative;
+    /*min-height: 83px;*/
+	border-radius: 0;
+}
+
+.navbar-default {
+ 	background-color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 17px;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+	color: #078243;
+}
+
+.navbar-collapse ul{
+	margin-top: 0px;
+    text-align: right;
+}
+
+.navbar-brand > img{
+        width: 80px;
+    margin: -9px;
+}
+/***************************/
+
+.input-group{
+	margin-bottom: 10px;
+}
+.input-group .form-control{
+	text-align: right;
+}
+
+.input-group .selectpicker{
+	direction: rtl;
+}
+
+/**************************/
+
+footer{
+	margin-top: 20px;
+}
+
+footer .line{
+	width: 100%;
+	height: 1px;
+	background-color: #a1a1a1;
+}
+
+/****************************/
+@media (max-width:768px) /* X-Small Screen */
+{
+    .upper-bar a{
+	text-decoration: none;
+	color:#bfc6c9;
+	font-size: 15px;
+	margin-left: 5px;
+    }
+    .upper-bar a img{
+        width: 21px;
+        height: 21px;
+    }
+}
