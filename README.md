@@ -1,2 +1,2 @@
 # SBC Survey
-## By: ALGOHRY
+By: ALGOHRY
